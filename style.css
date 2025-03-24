@@ -4,8 +4,8 @@ body {
   padding: 0;
 }
 header {
-  background-color: #333;
-  color: white;
+  background-color: #6a6e73;
+  color: rgb(255, 255, 255);
   padding: 10px 0;
 }
 nav {
@@ -23,6 +23,73 @@ section {
 footer {
   text-align: center;
   padding: 10px 0;
-  background-color: #333;
+  background-color: #6a6e73;
   color: white;
+}
+
+/* Styles for Technologies section */
+#technologies {
+  text-align: center; /* Center the content */
+}
+#technologies ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+#technologies li {
+  display: inline-block; /* Display items inline */
+  margin: 10px; /* Add margin around items */
+  font-size: 1.2rem; /* Increase font size */
+}
+#technologies i {
+  font-size: 2em; /* Set icon size */
+  margin-right: 5px; /* Space between icon and text */
+}
+/* estilo de formulário na linguagem HTML , com estilo no css onde estou agora a fazer isto */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  width: 417px;
+  height: 32.67px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  background-color: #8f35eae4;
+  color: white;
+  border: 1px solid #eeebf2fa;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #020703;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
 }

@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--parte da cabeça ,serve para importar bibliotecas e dar estilo ao meu site -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO CÁTIA</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
+    <!-- importar css-->
   </head>
+
   <body>
     <header>
       <div>
@@ -20,18 +28,32 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hello! I'm Cátia, a passionate and learner web developer in creating
-        dynamic and responsive websites in NEXUSdigitalweb. I love coding and
-        bringing ideas to life through technology.
+        Hello! I'm a passionate and learner web developer in creating dynamic
+        and responsive websites in NEXUSdigitalweb. I love coding and bringing
+        ideas to life through technology.
       </p>
+    </section>
+
+    <section id="technologies">
+      <h2>Technologies</h2>
+      <ul>
+        <li><i class="fa-brands fa-html5"></i><span>HTML</span></li>
+        <li><i class="fab fa-css3-alt"></i> <span>CSS</span></li>
+        <li><i class="fab fa-js-square"></i> <span>JavaScript</span></li>
+      </ul>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
       <ul>
         <li>
-          <h3>Project 1</h3>
-          <p>A brief description of Project 1. <a href="#">View more</a></p>
+          <h3>Project Site_Caue_v2</h3>
+          <p>
+            É um site para um cliente de maquiagem profissional , tratamentos
+            capilares e consulturia de beleza em duas verções: web mobile e
+            desktop. A brief description of Project 1.
+            <a href="https://github.com/acioligeorge/Site_Caue_v2">See more</a>
+          </p>
         </li>
         <li>
           <h3>Project 2</h3>
@@ -45,15 +67,27 @@
     </section>
 
     <section id="contact">
+      <!-- Secção de contacto e Formulário-->
       <h2>Contact</h2>
-      <p>
-        If you'd like to get in touch, feel free to reach out via email at
-        <a href="mailto:catia@example.com">catia@example.com</a>.
-      </p>
+      <div>
+        <form id="contact form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+        <!-- fim do formolario- seção do contato final-->
+      </div>
     </section>
 
     <footer>
-      <p>&copy; 2023 Cátia. All rights reserved.</p>
+      <p>&copy; 2025 Cátia Cardoso. All rights reserved.</p>
     </footer>
   </body>
 </html>
