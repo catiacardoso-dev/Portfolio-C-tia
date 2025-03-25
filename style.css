@@ -2,7 +2,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: white; /* inicio theme*/
+  color: black;
+  transition: background 0.3s, color 0.3s; /* fim theme*/
 }
+
+/* Tema escuro da função adicional do toggle-theme */
+body.dark-theme {
+  background-color: black;
+  color: white;
+}
+
 header {
   background-color: #6a6e73;
   color: rgb(255, 255, 255);
@@ -93,3 +103,4 @@ button:hover {
   color: red;
   font-size: 14px;
 }
+/* fim formulario*/

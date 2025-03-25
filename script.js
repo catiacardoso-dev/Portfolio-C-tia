@@ -1,5 +1,6 @@
 document.getElementById("contactForm").addEventListener("submit",  function(event) {let valid = true;
 
+
 // Limpar mensagem de erro
 document.getElementById("errorNome").textContent = "";
 document.getElementById("errorEmail").textContent = "";
@@ -32,4 +33,5 @@ let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         } else {
             alert("Formulário enviado com sucesso!");
         }
-{);  
+{);
+
