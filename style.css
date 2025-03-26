@@ -56,7 +56,7 @@ footer {
 }
 /* estilo de formulário na linguagem HTML , com estilo no css onde estou agora a fazer isto */
 form {
-  background: white;
+  background: #6a6e73; /* por mim iria a cor cinza*/
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -104,3 +104,29 @@ button:hover {
   font-size: 14px;
 }
 /* fim formulario*/
+/* defenição dos estilos para claro e escuro*/
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+.dark-theme {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  padding: 5px 10px; /* Menor espaçamento interno */
+  font-size: 14px; /* Texto menor */
+  cursor: pointer;
+  border-radius: 5px; /* Cantos arredondados */
+  width: auto; /* Ajusta ao tamanho do conteúdo */
+  min-width: 80px; /* Tamanho minimo do botão */
+}
+/* fim de definição dos estilos */
